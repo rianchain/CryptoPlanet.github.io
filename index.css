@@ -1,0 +1,124 @@
+/* Gaya untuk navbar */
+.navbar {
+    background-color: #f8f9fa;
+  }
+
+.bg-light {
+    background-color: white;
+    padding-bottom: -100px;
+}
+
+.custom-login-button {
+    margin-right: 20px; /* Atur jarak dari sisi kanan, sesuaikan dengan kebutuhanmu */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 40px;
+    color: #343a40;
+    padding-bottom: -100px;
+  }
+  
+  /* Gaya untuk tombol masuk */
+  #login_button {
+    color: #007bff;
+    border-color: #007bff;
+  }
+  
+  /* Gaya untuk dynamic box */
+  /* Gaya untuk dynamic box */
+.dynamic-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-size: 600% 100%;
+    animation: gradientBG 10s ease infinite;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  #window {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h4 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Gaya untuk swapbox dan input */
+
+  .row {
+    margin-top: -100px;
+  }
+  .swapbox {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .swapbox_select {
+    flex: 0 0 45%;
+    margin: 5px;
+  }
+  
+  .token_select {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 5px;
+    color: #333;
+    font-size: 15px;
+  }
+  
+  .number {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+  }
+  
+  .gas_estimate_label {
+    margin-top: 10px;
+    color: #777;
+    font-size: 16px;
+  }
+  
+  /* Gaya untuk modal */
+  .modal-title {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .modal-content {
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-body {
+    color: #333;
+    font-size: 18px;
+    height: 500px;
+    overflow: scroll;
+  }
+  
+  
